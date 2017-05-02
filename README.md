@@ -17,7 +17,7 @@
 - cache image: [react-native-img-cache](https://github.com/wcandillon/react-native-img-cache)
 
 # Issues
-- [Blank screen on Android while enable Remote Debugger](https://github.com/wix/react-native-navigation/issues/963#issuecomment-294805642): This issue just happen on Android only, temporary solution is DO NOT enable remote debugger on Android.
+- [Blank screen on Android while enable Remote Debugger](https://github.com/wix/react-native-navigation/issues/963#issuecomment-294805642): This issue just happen on Android only, temporary solution is DO NOT enable remote debugger on Android. In case you getting this problem, you have too completely uninstall app, remove `android/app/build` folder then run `react-native run-android` again.
 
 # Requirement
 - yarn or npm
