@@ -5,8 +5,8 @@
 # Demo
 ![demo](http://i.imgur.com/YtrqYCp.png)
 
-# Boilerplate dependencies
-- best performance navigation: [wix/react-native-navigation](https://github.com/wix/react-native-navigation)
+# Dependencies
+- high performance navigation: [react-native-navigation](https://github.com/wix/react-native-navigation)
 - push notification: [onesignal](https://github.com/geektimecoil/react-native-onesignal)
 - state management: [redux](https://github.com/reactjs/redux)
 - offline first solution: [redux-persist](https://github.com/rt2zz/redux-persist)
@@ -28,7 +28,7 @@
 - `yarn add --dev eslint-config-rallycoding` or `npm install --save-dev eslint-config-rallycoding`
 
 # Usage
-- `git clone https://github.com/crabstudio/react-native-boilerplate.git your_project_name`
+- `git clone https://github.com/crabstudio/react-native-starter-kit.git your_project_name`
 - `cd your_project_name && yarn` or `cd your_project_name && npm install`
 - `react-native-rename your_project_name`
 - `react-native run-android` or `react-native run-ios`
@@ -37,13 +37,14 @@
 
 I have standard `.psd` files, you can edit by using photoshop, then following command bellow to replace existing icon|splash
 ```
-// assets file are in: assets/psd
-// After edit psd file, please export them into png files
-yo rn-toolbox:assets --icon ./assets/img/icon.png --splash ./assets/img/splash.png --store
-enter Y and press Enter when you get ask to override
+Assets file are in: assets/psd
+After edit psd file, please export them into png files
 
-After all, please modify android/app/src/res/values/styles.xml like this.
-[Remove all line inside AppTheme]
+yo rn-toolbox:assets --icon ./assets/img/icon.png --splash ./assets/img/splash.png --store
+Enter Y then press Enter to override existing one
+
+Remove all line inside key AppTheme in file: android/app/src/res/values/styles.xml
+[Finally your styles.xml must be the same example bellow]
 
 <resources>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
