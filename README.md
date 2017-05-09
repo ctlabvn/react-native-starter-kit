@@ -66,6 +66,7 @@ play-store-image.png
 
 - To push notification, you have to register a new [Onesignal](https://onesignal.com/) account and follow their's instructions. Then following [this guide](https://github.com/geektimecoil/react-native-onesignal#adding-the-code) to finish setup
 - Cannot change `StatusBar` color android API < 21 (pre-5.0)
+- Test on virtual machine only
 
 # LICENSE
 
