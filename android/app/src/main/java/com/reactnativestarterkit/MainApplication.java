@@ -2,15 +2,11 @@ package com.reactnativestarterkit;
 
 import android.support.annotation.Nullable;
 import com.reactnativenavigation.NavigationApplication;
-// import android.app.Application;
-// import com.facebook.react.ReactApplication;
 
 import com.RNFetchBlob.RNFetchBlobPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.geektime.rnonesignalandroid.ReactNativeOneSignalPackage;
-// import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
-// import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
 
 import java.util.Arrays;
