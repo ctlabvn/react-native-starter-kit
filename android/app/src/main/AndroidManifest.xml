@@ -16,7 +16,6 @@
         android:targetSdkVersion="22" />
 
     <application
-      android:launchMode="singleTop"
       android:name=".MainApplication"
       android:allowBackup="true"
       android:label="@string/app_name"
@@ -26,7 +25,8 @@
         android:name=".MainActivity"
         android:label="@string/app_name"
         android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-        android:windowSoftInputMode="adjustResize">
+        android:windowSoftInputMode="adjustResize"
+        android:launchMode="singleTop">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
