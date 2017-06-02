@@ -20,7 +20,7 @@
 - [Blank screen on Android while enable Remote Debugger](https://github.com/wix/react-native-navigation/issues/963#issuecomment-294805642): This issue just happen on Android only, temporary solution is DO NOT enable remote debugger on Android. In case you getting this problem, you have to uninstall app on android/emulator, remove `android/app/build` folder then run `react-native run-android` again.
 
 # Requirement
-- Mac laptop
+- Mac
 - [yarn](https://yarnpkg.com/en/docs/install) or `npm`
 - `npm i -g react-native-rename` (to rename project)
 - `brew install imagemagick`
